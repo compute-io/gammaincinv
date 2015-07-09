@@ -27,7 +27,7 @@ describe( 'typed-array gammaincinv', function tests() {
 		expect( gammaincinv ).to.be.a( 'function' );
 	});
 
-	it( 'should calculate the inverse __lower__ incomplete gamma function for two typed arrays', function test() {
+	it( 'should calculate the inverse of the __lower__ incomplete gamma function for two typed arrays', function test() {
 		var data, actual, expected, y, i;
 
 		data = new Float64Array([
@@ -62,7 +62,7 @@ describe( 'typed-array gammaincinv', function tests() {
 	});
 
 
-	it( 'should calculate the inverse __upper__ incomplete gamma function for two typed arrays', function test() {
+	it( 'should calculate the inverse of the __upper__ incomplete gamma function for two typed arrays', function test() {
 		var data, actual, expected, y, i;
 
 		data = new Float64Array([

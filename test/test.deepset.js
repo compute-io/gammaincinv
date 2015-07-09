@@ -27,7 +27,7 @@ describe( 'deepset gammaincinv', function tests() {
 		expect( gammaincinv ).to.be.a( 'function' );
 	});
 
-	it( 'should compute the inverse of the__lower__ incomplete gamma function of the array values with a scalar and deep set', function test() {
+	it( 'should compute the inverse of the __lower__ incomplete gamma function of the array values with a scalar and deep set', function test() {
 		var data, actual, expected;
 
 		data = [
