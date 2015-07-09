@@ -21,7 +21,7 @@
 	"strict": true,
 	"maxparams": 10,
 	"maxdepth": 5,
-	"maxstatements": 100,
+	"maxstatements": 200,
 	"maxcomplexity": false,
 	"maxlen": 1000,
 	"asi": false,
