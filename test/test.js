@@ -604,10 +604,10 @@ describe( 'compute-gammaincinv', function tests() {
 		d1 = new Float64Array( 25 );
 		d2 = new Float64Array( 25 );
 		d3 = new Float64Array( 25 );
-		for ( i = 0; i < d1.length; i++ ) {
-			d1[ i ] = i / 25;
-			d2[ i ] = GAMMAINCINV( i / 25, i / 25 );
-			d3[ i ] = GAMMAINCINV( i / 25, 2 );
+		for ( i = 1; i <= d1.length; i++ ) {
+			d1[ i-1 ] = i / 25;
+			d2[ i-1 ] = GAMMAINCINV( i / 25, i / 25 );
+			d3[ i-1 ] = GAMMAINCINV( i / 25, 2 );
 		}
 
 		// matrix elements + scalar

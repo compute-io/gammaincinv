@@ -7,7 +7,7 @@ var // Expectation library:
 	chai = require( 'chai' ),
 
 	// Matrix data structure:
-	matrix = require( 'dstructs-matrix' ),
+	matrix = require( 'dstructs-matrix' ).raw,
 
 	// Inverse incomplete gamma function
 	GAMMAINCINV = require( './../lib/number.js'),
