@@ -91,8 +91,7 @@ The function accepts the following `options`:
 *	__copy__: `boolean` indicating if the `function` should return a new data structure. Default: `true`.
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
-*	__tail__:`string` indicating whether to evaluate the `'lower'` or `'upper'` incomplete gamma function. Default: `'lower'`.
-*	__regularized__: `boolean` indicating if the `function` should compute the *regularized* or *unregularized* incomplete gamma functions. Default: `true`.
+*	__tail__:`string` indicating whether to invert the `'lower'` or `'upper'` regularized incomplete gamma function. Default: `'lower'`.
 
 By default, the function inverts the *lower* regularized incomplete gamma function, `P(x,a)`. To invert the *upper* function instead, i.e. `Q(x,a)`, set the `tail` option to `'upper'`.
 
